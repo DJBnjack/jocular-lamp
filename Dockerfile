@@ -1,4 +1,4 @@
-FROM node:5-onbuild
+FROM node:latest
 RUN mkdir /var/www
 ADD app.js /var/www/app.js
 
